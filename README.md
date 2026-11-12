@@ -1,8 +1,10 @@
 # 📦 Controle de Estoque em Java
 
-Sistema simples de controle de estoque desenvolvido em Java como exercício prático de Programação Orientada a Objetos (POO).
+Sistema simples de controle de estoque desenvolvido em Java como exercício prático de Programação Orientada a Objetos
+(POO).
 
-O objetivo deste projeto é consolidar conhecimentos sobre classes, objetos, encapsulamento, validação de dados e tratamento de exceções.
+O objetivo deste projeto é consolidar conhecimentos sobre classes, objetos, encapsulamento, validação de dados e
+tratamento de exceções.
 
 ## 🚀 Funcionalidades
 
@@ -18,7 +20,6 @@ O objetivo deste projeto é consolidar conhecimentos sobre classes, objetos, enc
 - Java 21 (LTS)
 - Oracle OpenJDK
 - IntelliJ IDEA (ambiente de desenvolvimento)
-- Programação Orientada a Objetos (POO)
 - Git e GitHub para versionamento
 
 ## 📚 Conceitos praticados
@@ -36,13 +37,22 @@ O objetivo deste projeto é consolidar conhecimentos sobre classes, objetos, enc
 
 ## 🏗️ Estrutura do projeto
 
-O sistema está dividido em duas classes principais:
+O sistema está dividido em duas classes principais, organizadas no pacote `com.wagner.inventory`:
 
-**Produto.java**
+```text
+src/
+└── com/
+    └── wagner/
+        └── inventory/
+            ├── InventoryApp.java
+            └── Product.java
+```
+
+**Product.java**
 
 Responsável por armazenar as informações do produto e implementar as regras de negócio, incluindo validações e operações sobre o estoque e o preço.
 
-**ControleEstoque.java**
+**InventoryApp.java**
 
 Responsável pela execução do programa, apresentação do menu, leitura dos dados e interação com o usuário.
 
@@ -52,7 +62,7 @@ Responsável pela execução do programa, apresentação do menu, leitura dos da
 2. Clone ou baixe este repositório.
 3. Abra o projeto no IntelliJ IDEA ou em outra IDE compatível com Java.
 4. Configure o Project SDK para Java 21, se estiver utilizando o IntelliJ IDEA.
-5. Execute a classe `ControleEstoque`, que contém o método `main`.
+5. Execute a classe `InventoryApp`, que contém o método `main`.
 6. Utilize o menu exibido no terminal.
 
 ## ⚠️ Limitações
@@ -66,14 +76,22 @@ Esta é uma aplicação educacional, ainda em desenvolvimento.
 
 ## 🎯 Objetivo de aprendizado
 
-Este projeto foi desenvolvido durante meus estudos de Java para compreender, na prática, como organizar uma aplicação utilizando Programação Orientada a Objetos.
+Este projeto foi desenvolvido durante meus estudos de Java para compreender, na prática, como organizar uma aplicação
+utilizando Programação Orientada a Objetos.
 
-Durante o desenvolvimento, pratiquei a separação de responsabilidades entre classes, a criação de regras de negócio, o encapsulamento e o tratamento de entradas inválidas.
+Durante o desenvolvimento, pratiquei a separação de responsabilidades entre classes, a criação de regras de negócio, o
+encapsulamento e o tratamento de entradas inválidas.
 
-O projeto também será utilizado para praticar Git, GitHub e refatoração de código.
+O projeto também é utilizado para praticar versionamento com Git e GitHub, além de técnicas de refatoração de código.
+
+## 🔧 Melhorias implementadas
+
+- Refatoração dos nomes das classes, métodos e atributos para inglês.
+- Padronização do pacote Java para `com.wagner.inventory`.
+- Preservação das funcionalidades e regras de negócio durante a refatoração.
 
 ## 🔄 Próximos passos
 
-- Padronizar os nomes das classes, métodos e atributos em inglês.
 - Melhorar a organização e a legibilidade do código.
 - Continuar aplicando os conhecimentos adquiridos nos estudos de Java.
+- Explorar novas funcionalidades conforme o aprendizado avançar.
